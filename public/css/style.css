@@ -533,11 +533,6 @@ nav a {
         width: 25em;
     }
 
-    .featured-container {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
     .featured .text-container {
         text-align: center;
     }
@@ -551,11 +546,11 @@ nav a {
     }
 
     .featured .main-image {
-        width: 50vw;
+        width: 40vw;
     }
 
     .featured .image-carousell img {
-        width: 11vw;
+        width: 9vw;
     }
 
     .category .card {
@@ -638,6 +633,19 @@ nav a {
 
     .featured-title, .category-title, .special-offer-title,.services-title {
         font-size: 3rem;
+    }
+
+    .featured-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured-container .main-image {
+        width: 50vw;
+    }
+
+    .featured .image-carousell img {
+        width: 11.5vw;
     }
 
     .featured .text-container h2 {
@@ -753,6 +761,7 @@ nav a {
 
     .special-offer .carousell .image-container {
         height: 50vh;
+        width: 100%;
     }
 
     .special-offer .carousell .image-container img:nth-child(2) {
